@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CryptoPedia/static/css/main.725bd754.css",
+    "main.js": "/CryptoPedia/static/js/main.ed482e27.js",
+    "static/media/crypto_bg.jpg": "/CryptoPedia/static/media/crypto_bg.95199b2f62342264f894.jpg",
+    "index.html": "/CryptoPedia/index.html",
+    "main.725bd754.css.map": "/CryptoPedia/static/css/main.725bd754.css.map",
+    "main.ed482e27.js.map": "/CryptoPedia/static/js/main.ed482e27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.725bd754.css",
+    "static/js/main.ed482e27.js"
+  ]
+}
