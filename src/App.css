@@ -1,0 +1,164 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Chakra Petch';
+}
+/* header  */
+#appbarTypo {
+  font-family: 'Chakra Petch';
+  color: rgba(245, 255, 214, 0.956);
+  font-weight: 500;
+  cursor: pointer;
+}
+#app {
+  font-family: 'Chakra Petch', sans-serif;
+  color: rgba(235, 251, 255, 0.992);
+}
+
+/* Poster */
+#title {
+  color: rgba(235, 251, 255, 0.992);
+  text-align: center;
+  font-family: 'Chakra Petch';
+  font-size: 4rem;
+}
+#subtitle {
+  color: rgb(185, 173, 173);
+  text-align: center;
+  font-family: 'Chakra Petch';
+  font-size: 1rem;
+}
+.poster {
+  
+  background-image: url("../public/crypto_bg.jpg");
+  background-size: contain;
+}
+
+#carousel {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+#carousel {
+  padding: 50px;
+}
+#carouselItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+}
+
+#row {
+  background-color: #16171a;
+  cursor: "pointer";
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#row:hover {
+  background-color: #131111;
+ }
+
+.cpContainer {
+  display: flex;
+} 
+.cpSideBar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25;
+  border-right: 2px solid grey;
+}
+
+.cpHeading {
+  font-weight: "bold";
+  margin-bottom: 20;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.cpDescription {
+  width: 100%;
+  font-family: 'Chakra Petch', sans-serif;
+  padding: 25px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  text-align: justify;
+}
+
+.cpMarketData: {
+  align-self: start;
+  padding: 25px;
+  paddingTop: 10px;
+  width: 100%;
+}
+.ciContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25;
+  padding: 40;
+}
+@media only screen and (max-width: 1700px) {
+.cpContainer {
+
+  padding: 10px;
+} 
+}
+@media only screen and (max-width: 600px) {
+  .cpContainer {
+    flex-direction: column;
+    align-items: "center";
+  } 
+  .cpSideBar {
+    width: 100%;
+  }
+  .cpMarketData: {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.selectButton {
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20;
+  padding-right: 20;
+  font-family: 'Chakra Petch', sans-serif;
+  cursor: pointer;
+  background-color: gold ;
+  color: black ;
+  font-weight: 500px;
+}
+.ciContainer {
+    width: 100%;
+    margin-top: 0px;
+    padding: 20;
+    padding-top: 0;
+  
+}
+
+.selectButton: hover {
+  background-color: yellow;
+  color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  .cpMarketData: {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .cpMarketData: {
+    align-items: start;
+  }
+}
+
